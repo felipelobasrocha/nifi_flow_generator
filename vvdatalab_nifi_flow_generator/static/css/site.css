@@ -1,0 +1,47 @@
+.vvnifibackground{
+    box-sizing: border-box;
+    background: linear-gradient(to right, #003E2D 0%, yellow 30%,white 50%,lightblue 100%);      
+    position: relative;
+    width: 99%;
+    height: 100%;
+    border: 0.5%;
+    padding: 0.5%;
+    margin: 0.5%;
+}
+.login{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    border-color: green;
+    border-style: solid;
+    width: 30%;
+    height: 30%;
+    box-sizing: content-box;
+    position: relative;
+    top: 30%;
+    left: 35%;
+}
+input[type=submit] {
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    display: inline-block;
+    margin: 5%;
+}
+.leftlogo {
+    position: relative;
+    display: inline;
+    padding: 1%;
+    margin: 1%;
+    border: 1%;
+    box-sizing: content-box;
+    left: 35%;
+}
+.rightlogo{
+    position: relative;
+    display: inline;
+    padding: 1%;
+    margin: 1%;
+    border: 1%;
+    box-sizing: content-box;
+    left: 40%;
+}

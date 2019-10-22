@@ -1,0 +1,10 @@
+from flask import Flask
+app = Flask(__name__)
+
+import vvdatalab_nifi_flow_generator.views
+import vvdatalab_nifi_flow_generator.controllers.bi_mis
+import vvdatalab_nifi_flow_generator.controllers.home
+import vvdatalab_nifi_flow_generator.controllers.example
+import vvdatalab_nifi_flow_generator.controllers.parceiro
+import vvdatalab_nifi_flow_generator.controllers.default
+import vvdatalab_nifi_flow_generator.models

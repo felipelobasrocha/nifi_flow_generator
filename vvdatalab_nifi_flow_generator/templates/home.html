@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Home page</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
+    <link href="static/css/home.css" rel="stylesheet" media="screen">
+    <link href="static/css/site.css" rel="stylesheet" media="screen">
+  </head>
+  <body ng-app="myApp">
+    <header class="vvnifibackground">
+      <div class="leftlogo">
+          <img src="static/image/viavarejologo.png">
+      </div>
+      <div class="rightlogo">
+          <img src="static/image/apache_nifi-ar21.svg" alt="Italian Trulli">
+      </div>
+    </header>
+    <div ng-include="'static/partials/default.html'"></div>
+    <script src="static/javascript/app.js"></script>
+    <script src="static/javascript/controllers/defaultController.js"></script>
+  </body>
+</html>

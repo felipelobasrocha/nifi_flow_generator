@@ -1,0 +1,11 @@
+<div ng-controller="defaultController">
+    <h1 ng-bind="statusMessage"></h1>
+
+    <pre class="">
+        <code ng-model="template" contenteditable="true" ng-bind="template | json" ng-trim="true">
+        </code>
+    </pre>
+    <div id="createbutton">
+        <button ng-click="createDataFlow()" class="feedback">Create</button>
+    </div>
+</div>

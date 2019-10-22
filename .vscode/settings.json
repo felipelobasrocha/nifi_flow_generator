@@ -1,0 +1,14 @@
+{
+    "python.pythonPath": "env/bin/python",
+    "python.testing.unittestEnabled": true,
+    "python.testing.pytestEnabled": false,
+    "python.testing.nosetestsEnabled": false,
+    "python.testing.unittestArgs": [
+        "-v",
+        "-s",
+        "./vvdatalab_nifi_flow_generator/tests/controllers",
+        "-p",
+        "*_test.py"
+    ],
+    "python.testing.promptToConfigure": false
+}

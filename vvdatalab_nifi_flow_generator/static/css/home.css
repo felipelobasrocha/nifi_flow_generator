@@ -1,0 +1,31 @@
+h1	{
+    color: #999999;
+    font-family: arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 1px;
+}
+pre
+{
+    border: 5px solid #888;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    margin: 3% 10%;
+    background: #1e1e1f;
+    font-weight: bold;
+    color: #EC7600;
+}
+.feedback {
+    background-color : lightblue;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border-color: #46b8da;
+}
+#createbutton {
+    position: fixed;
+    bottom: 2%;
+    right: 2%;
+}
